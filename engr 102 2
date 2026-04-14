@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel De La O Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f1f5f9;
+      color: #333;
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .left-panel {
+      padding-bottom: 20px;
+    }
+
+    .profile {
+      background: linear-gradient(135deg, #0f766e, #14b8a6);
+      color: white;
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    .profile h1 {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .profile p {
+      font-size: 16px;
+      opacity: 0.95;
+    }
+
+    .section {
+      padding: 22px 24px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      margin-bottom: 14px;
+      color: #0f766e;
+    }
+
+    .contact p,
+    .skills li,
+    .activity li,
+    .project li {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .right-panel .section:first-child {
+      border-top: none;
+    }
+
+    .main-title {
+      font-size: 26px;
+      color: #111827;
+      margin-bottom: 10px;
+    }
+
+    .subhead {
+      color: #0f766e;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .muted {
+      color: #6b7280;
+    }
+
+    .edu-block,
+    .project-block,
+    .activity-block {
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 800px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="card left-panel">
+      <div class="profile">
+        <h1>Joel De La O</h1>
+        <p>Construction Management Student</p>
+      </div>
+
+      <div class="section contact">
+        <h2>Contact</h2>
+        <p><strong>Location:</strong> Los Angeles, CA</p>
+        <p><strong>Phone:</strong> 310-350-2951</p>
+        <p><strong>Email:</strong> jeffreydelao010@gmail.com</p>
+      </div>
+
+      <div class="section skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Microsoft Excel</li>
+          <li>Microsoft Word</li>
+          <li>Time Management</li>
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="card right-panel">
+      <div class="section">
+        <div class="main-title">Objective</div>
+        <p>
+          Motivated Construction Management student seeking a construction internship
+          to gain hands-on experience, build industry skills, and contribute to
+          project success.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <div class="edu-block">
+          <div class="subhead">California State University, Long Beach</div>
+          <p>Bachelor of Science in Construction Management</p>
+          <p class="muted">Expected Graduation: 2029</p>
+          <p class="muted">GPA: 3.5</p>
+        </div>
+      </div>
+
+      <div class="section project">
+        <h2>Relevant Project Experience</h2>
+        <div class="project-block">
+          <div class="subhead">Single-Family Residence Case Study – Westwood, CA</div>
+          <ul>
+            <li>Analyzed construction planning and development of a residential project.</li>
+            <li>Reviewed project scope, scheduling, and cost considerations.</li>
+            <li>Collaborated in a team setting to evaluate construction processes.</li>
+            <li>Presented findings through organized reports and discussions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section activity">
+        <h2>Activities</h2>
+        <div class="activity-block">
+          <div class="subhead">Associated General Contractors (AGC)</div>
+          <ul>
+            <li>Engaged with industry professionals and events.</li>
+            <li>Gained exposure to real-world construction practices and networking opportunities.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
